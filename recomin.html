@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/a8d2f98056.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><img src="" alt="logo" /></a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="search2.html">Общий поиск</a></li>
+                        <li><a href="#">Рекоминдации</a></li>
+                        <li><a href="account.html">Аккаунт</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </header>
+        <div class="textbox">
+            <h1>Recommendations</h1>
+        </div>
+        <content>
+            <section class="blog-content">
+                <div class="row">
+                    <div class="blog-left">
+                        <img src="images/avatar" alt="" />
+                        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iusto dolorum ratione quidem!
+                        </p>
+                        <br />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iusto dolorum ratione quidem!
+                        </p>
+                    </div>
+
+                    <div class="blog-right">
+                        <h3>Топ 10,с высоким рейтингои.</h3>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>9,5</span>
+                        </div>
+                        <div>
+                            <span><a href="">Lorem.</a> </span>
+                            <span>9,3</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>9</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>9,3</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>8,7</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>8,8</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>8,5</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>8,6</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>9</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>8,3</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="blog-left">
+                        <img src="images/ds.avif" alt="" />
+                        <h2>Lorem ipsum dolor sit amet consectetur.</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iusto dolorum ratione quidem!
+                        </p>
+                        <br />
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Iusto dolorum ratione quidem!
+                        </p>
+                    </div>
+                    <div class="blog-right">
+                        <h3>Топ 10,щт пользователей.</h3>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>9,5</span>
+                        </div>
+                        <div>
+                            <span><a href="">Lorem.</a> </span>
+                            <span>9,3</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>9</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>9,3</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>8,7</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>8,8</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>8,5</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>8,6</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>9</span>
+                        </div>
+                        <div>
+                            <span><a href="#">Lorem.</a> </span>
+                            <span>8,3</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </content>
+        <!-- footer -->
+        <footer>
+            <h4>About Us</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium id perferendis rem error porro, alias illum. Sint
+                error voluptas mollitia harum temporibus dolorum laudantium
+                vitae, molestias, ab dolores distinctio laboriosam. Commodi
+                minus, temporibus sint magnam accusantium officiis placeat odio
+                dolor.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i></p>
+        </footer>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

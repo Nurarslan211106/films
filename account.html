@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://kit.fontawesome.com/a8d2f98056.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><img src="" alt="logo" /></a>
+
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#">Главная</a></li>
+                        <li><a href="news.html">Новости</a></li>
+                        <li><a href="search2.html">Общий поиск</a></li>
+                        <li><a href="recomin.html">Рекоминдации</a></li>
+                        <li><a href="account.html">Аккаунт</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </header>
+        <div class="textbox">
+            <h1>Create an account</h1>
+        </div>
+        <content>
+            <section class="contact-us">
+                <div class="row">
+                    <div class="contact-col">
+                        <div>
+                            <i class="fa fa-home"></i>
+                            <span>
+                                <h5>XYZ, Road, ABC Building</h5>
+                                <p>Sillicon Valley, USA</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa fa-phone"></i>
+                            <span>
+                                <h5>+94238858248</h5>
+                                <p>Mon to Sun, 9AM to 9PM</p>
+                            </span>
+                        </div>
+                        <div>
+                            <i class="fa fa-envelope-o"></i>
+                            <span>
+                                <h5>djisfu@dydys.ru</h5>
+                                <p>24/7</p>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="contact-col">
+                        <form>
+                            <input type="text" placeholder="Enter name" />
+                            <input
+                                type="password"
+                                placeholder="Enter password"
+                            />
+                            <input type="text" placeholder="Enter email" />
+                            <button type="submit" class="btn red-btn">
+                                Register
+                            </button>
+                            <fieldset>
+                                <legend>Report a bug</legend>
+                                <textarea rows="10" placeholder="report a bug">
+                                </textarea>
+                                <button type="submit" class="btn red-btn">
+                                    Post coment
+                                </button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </content>
+        <!-- footer -->
+        <footer>
+            <h4>About Us</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium id perferendis rem error porro, alias illum. Sint
+                error voluptas mollitia harum temporibus dolorum laudantium
+                vitae, molestias, ab dolores distinctio laboriosam. Commodi
+                minus, temporibus sint magnam accusantium officiis placeat odio
+                dolor.
+            </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i></p>
+        </footer>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>
